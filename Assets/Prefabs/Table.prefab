@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4593552446729730016
 Transform:
@@ -100,6 +100,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0.12535
       objectReference: {fileID: 0}
+    - target: {fileID: -5427896081372246625, guid: 111bf69a08b5d41f4bd36426993033c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: -5102943055763213686, guid: 111bf69a08b5d41f4bd36426993033c6,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -110,10 +115,45 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.00058
       objectReference: {fileID: 0}
+    - target: {fileID: -2328411686548971133, guid: 111bf69a08b5d41f4bd36426993033c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 758840705432856063, guid: 111bf69a08b5d41f4bd36426993033c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 111bf69a08b5d41f4bd36426993033c6,
         type: 3}
       propertyPath: m_Name
       value: Table2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 111bf69a08b5d41f4bd36426993033c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768573574027312386, guid: 111bf69a08b5d41f4bd36426993033c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692315859285334675, guid: 111bf69a08b5d41f4bd36426993033c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7788559112190591015, guid: 111bf69a08b5d41f4bd36426993033c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898234167134746850, guid: 111bf69a08b5d41f4bd36426993033c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
