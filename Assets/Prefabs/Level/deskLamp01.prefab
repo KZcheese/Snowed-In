@@ -88,10 +88,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: deskLamp01
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dfd3426283afe054c95941ec6bbb07dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: dfd3426283afe054c95941ec6bbb07dd,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: -4.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: dfd3426283afe054c95941ec6bbb07dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
