@@ -1968,6 +1968,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Thermometre (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4063504102374902810, guid: 879f674470c19674a99950c91465398b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10577,6 +10582,16 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 2913358888734423480, guid: b79d0c85cc6087c4fa8b480b9c8f4ce3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.271
+      objectReference: {fileID: 0}
+    - target: {fileID: 2913358888734423480, guid: b79d0c85cc6087c4fa8b480b9c8f4ce3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.399
+      objectReference: {fileID: 0}
     - target: {fileID: 2975448002374606060, guid: b79d0c85cc6087c4fa8b480b9c8f4ce3,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16071,6 +16086,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Computer Monitor OLD
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129990483990289734, guid: 6f77314623eeb314e9389fe3faa32c10,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5129990483990289734, guid: 6f77314623eeb314e9389fe3faa32c10,
         type: 3}
