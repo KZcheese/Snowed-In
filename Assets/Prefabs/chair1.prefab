@@ -110,11 +110,36 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -3632733962011432722, guid: a977b0140051f4518a316510a4a7b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d03591c2d2b30b04a8e64ee5fd344503, type: 2}
+    - target: {fileID: 876360764679082467, guid: a977b0140051f4518a316510a4a7b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 625e1327cee70ba488dbb1ccf136de9f, type: 2}
     - target: {fileID: 919132149155446097, guid: a977b0140051f4518a316510a4a7b6ae,
         type: 3}
       propertyPath: m_Name
       value: chair
       objectReference: {fileID: 0}
+    - target: {fileID: 2424503426839266856, guid: a977b0140051f4518a316510a4a7b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d03591c2d2b30b04a8e64ee5fd344503, type: 2}
+    - target: {fileID: 7529298927656944979, guid: a977b0140051f4518a316510a4a7b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b23f592bd9f489049a087500dd06b7af, type: 2}
+    - target: {fileID: 9208085576251623206, guid: a977b0140051f4518a316510a4a7b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d03591c2d2b30b04a8e64ee5fd344503, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

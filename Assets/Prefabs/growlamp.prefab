@@ -73,11 +73,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8543357909594450633, guid: 87ddec6d95a5140f4a76faa908c52aa3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a5d61ae2a63bcb1459130a7e86c9f863, type: 2}
     - target: {fileID: 919132149155446097, guid: 87ddec6d95a5140f4a76faa908c52aa3,
         type: 3}
       propertyPath: m_Name
       value: growlamp
       objectReference: {fileID: 0}
+    - target: {fileID: 3934830927812164019, guid: 87ddec6d95a5140f4a76faa908c52aa3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c84062238ed1374989199b5a50d4ce4, type: 2}
+    - target: {fileID: 4287405866783128512, guid: 87ddec6d95a5140f4a76faa908c52aa3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2f7c020e2a65c8646bdc1fa88485c366, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
