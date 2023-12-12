@@ -15561,6 +15561,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9072179453989640225, guid: cf8cf0671ad4d450689f79666f43cd08,
         type: 3}
+      propertyPath: m_UVScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9072179453989640225, guid: cf8cf0671ad4d450689f79666f43cd08,
+        type: 3}
+      propertyPath: m_UVScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9072179453989640225, guid: cf8cf0671ad4d450689f79666f43cd08,
+        type: 3}
       propertyPath: m_FadeFactor
       value: 0.1
       objectReference: {fileID: 0}
