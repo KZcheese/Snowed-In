@@ -21,7 +21,7 @@ public class ToggleDoor : MonoBehaviour
     {
        // gameObject.GetComponent<ToggleDoor>().toggle();
     }
-    void toggle()
+    public void toggle()
     {
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("idle"))
         {

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class OutlineFocusWithUICursor : MonoBehaviour
 {
@@ -22,7 +23,8 @@ public class OutlineFocusWithUICursor : MonoBehaviour
         {
             GameObject hitObject = hit.collider.gameObject;
 
-            if (hitObject.CompareTag("interactable"))
+            // Check if the hit object is an interactable or a door knob
+            if (hitObject.CompareTag("interactable") || hitObject.CompareTag("DoorKnob"))
             {
                 if (focusedObject != hitObject)
                 {
@@ -38,6 +40,12 @@ public class OutlineFocusWithUICursor : MonoBehaviour
         else
         {
             ClearFocus();
+        }
+
+        // Check for mouse click on a focused object
+        if (Mouse.current.leftButton.wasPressedThisFrame && focusedObject != null)
+        {
+            AttemptInteraction(focusedObject);
         }
     }
 
@@ -68,5 +76,17 @@ public class OutlineFocusWithUICursor : MonoBehaviour
 
         // Reset the timer
         timeSinceLastFocusChange = 0f;
+    }
+
+    private void AttemptInteraction(GameObject interactableObject)
+    {
+        if (interactableObject.CompareTag("DoorKnob"))
+        {
+            ToggleDoor doorScript = interactableObject.GetComponentInParent<ToggleDoor>();
+            if (doorScript != null)
+            {
+                doorScript.toggle();
+            }
+        }
     }
 }
