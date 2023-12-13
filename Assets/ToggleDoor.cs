@@ -6,7 +6,7 @@ public class ToggleDoor : MonoBehaviour
 {
 
     public Animator animator;
-    private bool open = false;
+    public bool locked = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,21 +23,21 @@ public class ToggleDoor : MonoBehaviour
     }
     public void toggle()
     {
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("idle"))
+        if (!locked)
         {
-      
-            if (!open)
+            if (animator.GetCurrentAnimatorStateInfo(0).IsName("closed"))
             {
-                animator.Play("door open",0,0.0f);
-                open = true;
+
+                animator.Play("door open", 0, 0.0f);
 
             }
-            else
+            else if (animator.GetCurrentAnimatorStateInfo(0).IsName("open"))
             {
-                animator.Play("door close",0,0.0f);
-                open = false;
-            }
+                animator.Play("door close", 0, 0.0f);
 
+
+
+            }
         }
     }
 }
