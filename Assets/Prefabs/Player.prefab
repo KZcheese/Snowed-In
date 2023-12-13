@@ -192,7 +192,7 @@ MonoBehaviour:
   groundDistance: 0.1
   groundMask:
     serializedVersion: 2
-    m_Bits: 25
+    m_Bits: 17
 --- !u!114 &2457696440347275962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 8504730778391800358}
-  lookSpeed: 0.25
+  lookSpeed: 0.1
   verticalLookLimit: 90
 --- !u!1 &5226625312166608355
 GameObject:
@@ -304,7 +304,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.1
+  near clip plane: 0.25
   far clip plane: 5000
   field of view: 60
   orthographic: 0
