@@ -27,7 +27,8 @@ public class OutlineFocusWithUICursor : MonoBehaviour
             // Check if the hit object is an interactable or a door knob
             if (hitObject.CompareTag("interactable") 
                 || hitObject.CompareTag("DoorKnob") 
-                || hitObject.CompareTag("Map"))
+                || hitObject.CompareTag("Map")
+                || hitObject.CompareTag("Report"))
             {
                 if (focusedObject != hitObject)
                 {
@@ -57,7 +58,7 @@ public class OutlineFocusWithUICursor : MonoBehaviour
         if (focusedObject != null)
         {
             focusedObject.layer = LayerMask.NameToLayer("Default");
-            if (focusedObject.CompareTag("Map"))
+            if (focusedObject.CompareTag("Map") || focusedObject.CompareTag("Report"))
             {
                 var mapBehavior = focusedObject.GetComponent<ToggleMapUI>();
                 if (mapBehavior != null)

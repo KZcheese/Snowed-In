@@ -2948,9 +2948,10 @@ GameObject:
   - component: {fileID: 148805846}
   - component: {fileID: 148805845}
   - component: {fileID: 148805844}
+  - component: {fileID: 148805847}
   m_Layer: 0
   m_Name: journal (2)
-  m_TagString: Untagged
+  m_TagString: Report
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -3041,6 +3042,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 148805842}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &148805847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148805842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d8f2a09c389f484fa41cc0366fe43af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UI: {fileID: 0}
 --- !u!1 &152889165
 GameObject:
   m_ObjectHideFlags: 0
@@ -7885,9 +7899,10 @@ GameObject:
   - component: {fileID: 370358434}
   - component: {fileID: 370358433}
   - component: {fileID: 370358432}
+  - component: {fileID: 370358435}
   m_Layer: 0
   m_Name: journal
-  m_TagString: Untagged
+  m_TagString: Report
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -7978,6 +7993,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 370358430}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &370358435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370358430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d8f2a09c389f484fa41cc0366fe43af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UI: {fileID: 0}
 --- !u!1 &371199819
 GameObject:
   m_ObjectHideFlags: 0
@@ -18053,7 +18081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d8f2a09c389f484fa41cc0366fe43af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mapUI: {fileID: 686959901}
+  UI: {fileID: 686959901}
 --- !u!1001 &1363650006
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23073,9 +23101,10 @@ GameObject:
   - component: {fileID: 1622362658}
   - component: {fileID: 1622362657}
   - component: {fileID: 1622362656}
+  - component: {fileID: 1622362659}
   m_Layer: 0
   m_Name: Torn bit of map
-  m_TagString: Untagged
+  m_TagString: Report
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -23166,6 +23195,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622362654}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1622362659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622362654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d8f2a09c389f484fa41cc0366fe43af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UI: {fileID: 0}
 --- !u!1 &1627908710 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 40c613f17992aa947ae886b31ab082ba,
@@ -24080,9 +24122,10 @@ GameObject:
   - component: {fileID: 1725202208}
   - component: {fileID: 1725202207}
   - component: {fileID: 1725202206}
+  - component: {fileID: 1725202209}
   m_Layer: 0
   m_Name: journal (1)
-  m_TagString: Untagged
+  m_TagString: Report
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -24173,6 +24216,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1725202204}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1725202209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725202204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d8f2a09c389f484fa41cc0366fe43af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UI: {fileID: 0}
 --- !u!1001 &1730804836
 PrefabInstance:
   m_ObjectHideFlags: 0
