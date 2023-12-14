@@ -1075,6 +1075,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Equipment Locker (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5236620334458174310, guid: 29ae67734c8114c88bd1b30e4615d098,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a79f6243f3505444895e513f09fc9555, type: 2}
     - target: {fileID: 8858593365216428266, guid: 29ae67734c8114c88bd1b30e4615d098,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1336,6 +1341,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 5925153316235590171}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 50d5cca6cdc434ad188b803739f168cf,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7601760857957477084}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -2990163113245169829, guid: 50d5cca6cdc434ad188b803739f168cf,
         type: 3}
@@ -1421,6 +1430,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Equipment Locker
       objectReference: {fileID: 0}
+    - target: {fileID: 5236620334458174310, guid: 29ae67734c8114c88bd1b30e4615d098,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2eb618ba0e5364aa0aaed820684d1637, type: 2}
     - target: {fileID: 8858593365216428266, guid: 29ae67734c8114c88bd1b30e4615d098,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1849,6 +1863,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Equipment Locker (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5236620334458174310, guid: 29ae67734c8114c88bd1b30e4615d098,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a2b1ea14736704f4b96610afb4de550b, type: 2}
     - target: {fileID: 8858593365216428266, guid: 29ae67734c8114c88bd1b30e4615d098,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1923,6 +1942,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Equipment Locker (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5236620334458174310, guid: 29ae67734c8114c88bd1b30e4615d098,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 08623f520daa54ecdbcdee0656e517a9, type: 2}
     - target: {fileID: 8858593365216428266, guid: 29ae67734c8114c88bd1b30e4615d098,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2016,6 +2040,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: boot (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2348547301821841937, guid: 595d071ad849f41fd96e168bd1268f9d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2348547301821841937, guid: 595d071ad849f41fd96e168bd1268f9d,
         type: 3}
@@ -2371,6 +2400,110 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7917917052668274661}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7995112287716986167
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 203272911395331111}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 565fee7dc5d0744659a3315b51f9add9,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.4137485
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 565fee7dc5d0744659a3315b51f9add9,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4137485
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 565fee7dc5d0744659a3315b51f9add9,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.4137485
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 565fee7dc5d0744659a3315b51f9add9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.859
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 565fee7dc5d0744659a3315b51f9add9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.733
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 565fee7dc5d0744659a3315b51f9add9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.837
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 565fee7dc5d0744659a3315b51f9add9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7108585
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 565fee7dc5d0744659a3315b51f9add9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 565fee7dc5d0744659a3315b51f9add9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70333505
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 565fee7dc5d0744659a3315b51f9add9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 565fee7dc5d0744659a3315b51f9add9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 565fee7dc5d0744659a3315b51f9add9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 89.39
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 565fee7dc5d0744659a3315b51f9add9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3659460302604854730, guid: 565fee7dc5d0744659a3315b51f9add9,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f38f9793a203a4db9a529ebdc84c638d, type: 2}
+    - target: {fileID: 919132149155446097, guid: 565fee7dc5d0744659a3315b51f9add9,
+        type: 3}
+      propertyPath: m_Name
+      value: Fur Collar Jacket2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1107080079702110738, guid: 565fee7dc5d0744659a3315b51f9add9,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f4bdfa6b886a1461bab355dc9a447281, type: 2}
+    - target: {fileID: 8833494629863747193, guid: 565fee7dc5d0744659a3315b51f9add9,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c0168f9568ef0487cbcb3302209410a0, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 565fee7dc5d0744659a3315b51f9add9, type: 3}
+--- !u!4 &7601760857957477084 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 565fee7dc5d0744659a3315b51f9add9,
+    type: 3}
+  m_PrefabInstance: {fileID: 7995112287716986167}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8783468510440254585
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2706,6 +2839,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Equipment Locker (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5236620334458174310, guid: 29ae67734c8114c88bd1b30e4615d098,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8335d938226cc49228879b243ed9533a, type: 2}
     - target: {fileID: 8858593365216428266, guid: 29ae67734c8114c88bd1b30e4615d098,
         type: 3}
       propertyPath: m_LocalPosition.x
