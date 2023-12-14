@@ -23,7 +23,7 @@ Material:
   m_Name: black_glass
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 2100000, guid: b4511aaccf3c322439852a754a0af05f, type: 2}
-  m_ModifiedSerializedProperties: 16
+  m_ModifiedSerializedProperties: 18
   m_ValidKeywords:
   - _SPECULAR_SETUP
   m_InvalidKeywords: []
@@ -43,13 +43,16 @@ Material:
     - _Blend: 0
     - _DstBlend: 0
     - _DstBlendAlpha: 0
-    - _Metallic: 0.8
+    - _EnvironmentReflections: 1
+    - _Metallic: 1
     - _Smoothness: 1
+    - _SpecularHighlights: 1
     - _Surface: 0
     - _WorkflowMode: 0
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0, g: 0, b: 0, a: 0.09803922}
-    - _Color: {r: 0, g: 0, b: 0, a: 0.09803922}
+    - _BaseColor: {r: 0, g: 0, b: 0, a: 0.70980394}
+    - _Color: {r: 0, g: 0, b: 0, a: 0.70980394}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.027999999, g: 0.027999999, b: 0.027999999, a: 1}
   m_BuildTextureStacks: []
