@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ToggleDoor : MonoBehaviour
+public class ToggleDoor : Clickable
 {
 
     public Animator animator;
@@ -29,7 +29,12 @@ public class ToggleDoor : MonoBehaviour
     {
        // gameObject.GetComponent<ToggleDoor>().toggle();
     }
-    public void toggle()
+    public override void onClick()
+    {
+        toggle();
+    }
+
+    private void toggle()
     {
         if (locked){
             // Play locked sound if the door is locked
@@ -57,4 +62,6 @@ public class ToggleDoor : MonoBehaviour
             }
         }
     }
+
+
 }

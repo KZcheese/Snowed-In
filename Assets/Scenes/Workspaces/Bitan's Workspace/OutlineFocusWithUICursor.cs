@@ -80,13 +80,43 @@ public class OutlineFocusWithUICursor : MonoBehaviour
 
     private void AttemptInteraction(GameObject interactableObject)
     {
-        if (interactableObject.CompareTag("DoorKnob"))
+        /* if (interactableObject.CompareTag("DoorKnob"))
+         {
+             ToggleDoor doorScript = interactableObject.GetComponentInParent<ToggleDoor>();
+             if (doorScript != null)
+             {
+                 doorScript.toggle();
+             }
+         }*/
+
+        Clickable behavior = interactableObject.GetComponent<Clickable>();
+        if (behavior != null)
         {
-            ToggleDoor doorScript = interactableObject.GetComponentInParent<ToggleDoor>();
-            if (doorScript != null)
+            behavior.onClick();
+        }
+        else
+        {
+            
+
+            behavior = interactableObject.GetComponentInChildren<Clickable>();
+            if (behavior != null)
             {
-                doorScript.toggle();
+                behavior.onClick();
+            }
+            else
+            {
+                behavior = interactableObject.GetComponentInParent<Clickable>();
+                if (behavior != null)
+                {
+                    behavior.onClick();
+                }
+                else
+                {
+                    Debug.LogWarning("Warning: failed to find click behavior when interacting with " + interactableObject.name);
+                }
+
             }
         }
+
     }
 }
