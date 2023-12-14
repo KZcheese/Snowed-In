@@ -6,6 +6,7 @@ public class OutlineFocusWithUICursor : MonoBehaviour
     public LayerMask interactableLayerMask; // Set this in the inspector
     public float maxRaycastDistance = 10f; // Maximum distance for raycast
     private GameObject focusedObject = null;
+    
 
     // Debounce variables
     public float debounceTime = 0.1f; // Time to wait before changing focus
@@ -24,7 +25,9 @@ public class OutlineFocusWithUICursor : MonoBehaviour
             GameObject hitObject = hit.collider.gameObject;
 
             // Check if the hit object is an interactable or a door knob
-            if (hitObject.CompareTag("interactable") || hitObject.CompareTag("DoorKnob"))
+            if (hitObject.CompareTag("interactable") 
+                || hitObject.CompareTag("DoorKnob") 
+                || hitObject.CompareTag("Map"))
             {
                 if (focusedObject != hitObject)
                 {
@@ -54,6 +57,14 @@ public class OutlineFocusWithUICursor : MonoBehaviour
         if (focusedObject != null)
         {
             focusedObject.layer = LayerMask.NameToLayer("Default");
+            if (focusedObject.CompareTag("Map"))
+            {
+                var mapBehavior = focusedObject.GetComponent<ToggleMapUI>();
+                if (mapBehavior != null)
+                {
+                    mapBehavior.HideMap(); // Hide the map UI when focus is lost
+                }
+            }
             focusedObject = null;
             timeSinceLastFocusChange = 0f;
         }
