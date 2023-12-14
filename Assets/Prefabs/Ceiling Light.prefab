@@ -307,7 +307,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a5d61ae2a63bcb1459130a7e86c9f863, type: 2}
+  - {fileID: 2100000, guid: d03591c2d2b30b04a8e64ee5fd344503, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -368,7 +368,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4305708432672281149
 Transform:
   m_ObjectHideFlags: 0
@@ -396,7 +396,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 200
+  m_Intensity: 100
   m_Range: 10
   m_SpotAngle: 150
   m_InnerSpotAngle: 90
