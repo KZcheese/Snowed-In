@@ -206,6 +206,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1399772194492937297, guid: 2d55fa6f25edf425da30b9b0c2905f37,
+        type: 3}
+      propertyPath: doorSoundClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7337bf8623a21ed4e953c706199eddd4, type: 3}
     - target: {fileID: 2153035371479379772, guid: 2d55fa6f25edf425da30b9b0c2905f37,
         type: 3}
       propertyPath: m_LocalPosition.x

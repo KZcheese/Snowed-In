@@ -784,6 +784,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 7123369370508270074}
+  locked: 0
+  doorSoundClip: {fileID: 8300000, guid: b1f0fb3a926ddeb4e9792550bc73d135, type: 3}
 --- !u!1 &8565851448966461858
 GameObject:
   m_ObjectHideFlags: 0
