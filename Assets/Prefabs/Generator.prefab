@@ -5876,11 +5876,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: FuseBox
       objectReference: {fileID: 0}
-    - target: {fileID: 6577312543713771678, guid: d194b10e89a0c37498bcbc493eab31fb,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 978b5d0364a3a954eacd670d2cda3fde, type: 2}
     - target: {fileID: 7043907118629766819, guid: d194b10e89a0c37498bcbc493eab31fb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5930,6 +5925,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7060593473327947438, guid: d194b10e89a0c37498bcbc493eab31fb,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7060593473327947438, guid: d194b10e89a0c37498bcbc493eab31fb,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 7060593473327947438, guid: d194b10e89a0c37498bcbc493eab31fb,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.508
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
