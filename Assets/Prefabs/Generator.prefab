@@ -3779,7 +3779,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 100
+  m_Intensity: 50
   m_Range: 20
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -3818,7 +3818,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -6485,7 +6485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef615acddaea09b41b9724479a2f5124, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  light: {fileID: 2544647527714303603}
+  light: {fileID: 0}
   emissive: {fileID: 5025029828123126919}
   minIntensity: 0
   maxIntensity: 1
