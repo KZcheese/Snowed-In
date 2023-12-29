@@ -11152,29 +11152,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 694451132}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &697120329 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5237030084596044390, guid: d9db30817db153b46bdf31560dba2f91,
-    type: 3}
-  m_PrefabInstance: {fileID: 1932308194}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &697120331
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 697120329}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39ffef9ba3a1a7341ae2a7f7cafcb693, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactableLayerMask:
-    serializedVersion: 2
-    m_Bits: 9
-  maxRaycastDistance: 4
-  debounceTime: 0
 --- !u!1001 &708796964
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27331,11 +27308,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1412079429010013854, guid: d9db30817db153b46bdf31560dba2f91,
-        type: 3}
-      propertyPath: m_Antialiasing
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 4686865737573734613, guid: d9db30817db153b46bdf31560dba2f91,
         type: 3}
       propertyPath: m_Name
@@ -27391,19 +27363,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6252074305033188582, guid: d9db30817db153b46bdf31560dba2f91,
-        type: 3}
-      propertyPath: groundMask.m_Bits
-      value: 17
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5237030084596044390, guid: d9db30817db153b46bdf31560dba2f91,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 697120331}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9db30817db153b46bdf31560dba2f91, type: 3}
 --- !u!1001 &1933185286
 PrefabInstance:
